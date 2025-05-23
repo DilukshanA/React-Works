@@ -46,7 +46,8 @@ function checkBalance() {
 
 async function doAll() {
     try {
-        await login();
+        const loginResult = await login();
+        console.log(loginResult);
         await accessAccount();
         await checkBalance();
         console.log("All done");
