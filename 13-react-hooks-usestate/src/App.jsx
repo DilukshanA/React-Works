@@ -6,8 +6,10 @@ import Form from './components/Form'
 import MainComp from './components/LocalStorageUser/MainComp'
 import EffectComp from './components/UseEffect/EffectComp'
 import MountUnMount from './components/UseEffect/MountUnMount'
+import Memo from './components/useMemo/Memo'
 import RefExOne from './components/useRef/RefExOne'
 import RefExTwo from './components/useRef/RefExTwo'
+import RenderCheck from './components/UseState/RenderCheck'
 import StateObject from './components/UseState/StateObject'
 
 function App() {
@@ -22,8 +24,10 @@ function App() {
     {/* <ExampleOne/>
     <ExampleTwo/> */}
     {/* <RefExOne/> */}
-    <RefExTwo/>
+    {/* <RefExTwo/> */}
     {/* <MountUnMount/> */}
+    {/* <Memo/> */}
+    <RenderCheck/>
     </>
   )
 }
