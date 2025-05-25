@@ -4,6 +4,7 @@ import ExampleOne from './components/example/ExampleOne'
 import ExampleTwo from './components/example/ExampleTwo'
 import Form from './components/Form'
 import MainComp from './components/LocalStorageUser/MainComp'
+import MainCallback from './components/useCallback/MainCallback'
 import EffectComp from './components/UseEffect/EffectComp'
 import MountUnMount from './components/UseEffect/MountUnMount'
 import Memo from './components/useMemo/Memo'
@@ -27,7 +28,8 @@ function App() {
     {/* <RefExTwo/> */}
     {/* <MountUnMount/> */}
     {/* <Memo/> */}
-    <RenderCheck/>
+    {/* <RenderCheck/> */}
+    <MainCallback/>
     </>
   )
 }
