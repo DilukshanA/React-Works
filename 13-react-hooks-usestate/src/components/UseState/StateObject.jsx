@@ -1,5 +1,5 @@
 import { useState } from "react";
-import userData from './../../../public/data/user'
+import userData from './../../../data/user'
 
 function StateObject() {
 
